@@ -28,7 +28,7 @@ with:
   arch: <arch>
 ```
 
-For a complete example, see [here](https://github.com/storeman-developers/harbour-storeman/pull/170/files#diff-5c3fa597431eda03ac3339ae6bf7f05e1a50d6fc7333679ec38e21b337cb6721).
+For a complete example, see [here](https://github.com/storeman-developers/harbour-storeman/tree/devel/.github/workflows).
 
 ---
 
