@@ -13,7 +13,7 @@ or use `latest` to be always on the edge of the container updates.
 For Sailfish OS build target releases ≥ 4.1.0
 
 ```
-uses: coderus/github-sfos-build@master
+uses: robang74/github-sfos-build@master
 with:
   release: <release>
   arch: <arch>
@@ -22,7 +22,7 @@ with:
 For Sailfish OS build target releases < 4.1.0 
 
 ```
-uses: coderus/github-sfos-build@old-stable
+uses: robang74/github-sfos-build@old-stable
 with:
   release: <release>
   arch: <arch>
