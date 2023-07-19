@@ -6,6 +6,10 @@ For the available SailFish OS build target releases:
 
 or use `latest` to be always on the edge of the container updates.
 
+* https://hub.docker.com/repository/docker/robang74/sailfishos-platform-sdk/tags
+
+The last available v4.5.0.16 has a mirror image on my docker hub account. 
+
 ---
 
 ### Usage
