@@ -3,12 +3,12 @@ name: 'Buildfish'
 description: 'Build SailfishOS apps with Docker'
 inputs:
   release:
-    description: 'SailfishOS release (check https://hub.docker.com/r/coderus/sailfishos-platform-sdk/tags)'
+    description: 'SailfishOS release'
     required: true
-    default: 4.1.0.24
+    default: 4.5.0.16
   arch:
-    description: 'Build arch (e.g. armv7hl, i486)'
-    default: 'armv7hl'
+    description: 'Build arch'
+    default: 'aarch64'
 
 runs:
   using: 'composite'
