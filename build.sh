@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex
+set -mex
 
 echo "Version 1.1"
 
