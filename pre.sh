@@ -1,5 +1,5 @@
 #!/bin/bash
 
-set -ex
+set -mex
 
 mkdir -p /home/mersdk/build
