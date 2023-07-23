@@ -29,6 +29,6 @@ if ! mb2 -t SailfishOS-${INPUT_RELEASE}-${INPUT_ARCH} apply; then       # RAF
   echo "========================================================"       # RAF 
   exit 1                                                                # RAF
 fi                                                                      # RAF
-mb2 -t SailfishOS-${INPUT_RELEASE}-${INPUT_ARCH} build
+mb2 -t SailfishOS-${INPUT_RELEASE}-${INPUT_ARCH} build -p -j$(nproc)    # RAF
 sudo mkdir -p /workspace/RPMS
 sudo cp -r RPMS/*.rpm /workspace/RPMS
