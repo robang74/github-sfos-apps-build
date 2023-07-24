@@ -12,12 +12,36 @@ The last available v4.5.0.16 has a mirror image on my docker hub account.
 
 ---
 
+### Availability
+
+Since v0.1.4, the examples and the scripts on this project allow to build a
+great variety of project from a SFOS UI app like [Patch Manager](https://github.com/robang74/patchmanager)
+or [busybox](https://github.com/robang74/sailfish-os-busybox) for SFOS which
+is the most vital component of the SFOS GNU/Linux subsystem.
+
+Hence, it is the right time to freeze the versioning in order to proved an
+universal availability for those who rely on this project to build their own
+RPMs for SFOS.
+
+In order to achieve this the old-stable and the master branches are protected
+by accidental writings and on the master a specific tag is set. This tag v0.1.4
+is also referred by the examples to grant as much as possible to others about
+the building availability. They can choose to refer to the master HEAD or to
+update the version in the future editing their action files.
+
+The development process will continue on develop branch that it will be the
+default branch in such a way everyone land on this page, can access to the last
+developing version but suggested to use a stable (master) or tagged (v0.1.4)
+version for maximum availability.
+
+---
+
 ### Usage
 
 For Sailfish OS build target releases ≥ 4.1.0
 
 ```
-uses: robang74/github-sfos-build@master
+uses: robang74/github-sfos-build@v0.1.4
 with:
   release: <release>
   arch: <arch>

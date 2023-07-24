@@ -54,7 +54,7 @@ jobs:
       env:
         ARCH: aarch64
         RELEASE: ${{ env.SFOS_RELEASE }}
-      uses: robang74/github-sfos-apps-build@master
+      uses: robang74/github-sfos-apps-build@v0.1.4
       with:
         release: ${{ env.RELEASE }}
         arch: ${{ env.ARCH }}
